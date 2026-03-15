@@ -7,55 +7,79 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header>
-        <h1>帯金ゆかり (Yukari Obikane)</h1>
-        <p>俳優／やまなし大使／演技講師</p>
+    <header class="site-header">
         <nav>
             <ul>
-                <li><a href="#news">最新情報</a></li>
-                <li><a href="#profile">プロフィール</a></li>
-                <li><a href="#works">出演歴</a></li>
-                <li><a href="#contact">リンク集</a></li>
+                <li><a href="#news">NEWS</a></li>
+                <li><a href="#profile">PROFILE</a></li>
+                <li><a href="#works">WORKS</a></li>
+                <li><a href="#contact">CONTACT</a></li>
             </ul>
         </nav>
     </header>
 
-    <main>
-        <section id="news">
-            <h2>最新情報 (《2024年9月23日現在》)</h2>
-            <ul>
-                <li>舞台（2024/11/7~17）劇団チョコレートケーキ『つきかげ』@下北沢 駅前劇場</li>
-                <li>舞台（2024/11/24）劇団チリ『台本のない初日』@立川</li>
-                <li>雑誌連載（発売中）えんぶ『帯金ゆかりの世相を縫う』</li>
-                <li>YouTube「ホワットのこんなお仕事あったんだチャンネル」レギュラー出演</li>
-                <li>ACT芸能進学校演技講師</li>
+    <div class="hero">
+        <div class="hero-content">
+            <h1 class="hero-title">帯金 ゆかり</h1>
+            <p class="hero-subtitle">Yukari Obikane</p>
+        </div>
+    </div>
+
+    <main class="container">
+        <section id="news" class="section">
+            <h2 class="section-title">NEWS</h2>
+            <ul class="timeline">
+                <li>
+                    <strong>【舞台】</strong>（2024/11/7~17）劇団チョコレートケーキ『つきかげ』@下北沢 駅前劇場
+                </li>
+                <li>
+                    <strong>【舞台】</strong>（2024/11/24）劇団チリ『台本のない初日』@立川
+                </li>
+                <li>
+                    <strong>【雑誌連載】</strong>（発売中）えんぶ『帯金ゆかりの世相を縫う』
+                </li>
+                <li>
+                    <strong>【YouTube】</strong>「ホワットのこんなお仕事あったんだチャンネル」レギュラー出演
+                </li>
+                <li>
+                    <strong>【講師】</strong>ACT芸能進学校演技講師
+                </li>
             </ul>
         </section>
 
-        <section id="profile">
-            <h2>プロフィール</h2>
-            <p>
-                誕生日: 1982年6月2日<br>
-                出身地: 山梨県<br>
-                所属: 株式会社オフィスのいり<br>
-                特技: 筆文字、イラスト、一輪車、水泳、ピアノ、ドラム、リコーダー
-            </p>
-            <p>
-                法政大学文学部日本文学科卒。早稲田大学演劇研究会にて劇団「北京蝶々」の旗揚げメンバーとして参加後、フリーに。<br>
-                躍動感ある演技に定評があり、「怪女優」と呼ぶ人も多い。佐藤佐吉演劇祭にて優秀主演女優賞を受賞。<br>
-                2023年6月に「やまなし大使」に就任。精力的に舞台やメディア、演技指導で活躍中。
-            </p>
+        <section id="profile" class="section">
+            <h2 class="section-title">PROFILE</h2>
+            <div class="profile-grid">
+                <div class="profile-img-placeholder">
+                    <!-- 画像が用意されたら imgタグに差し替えます -->
+                    <p>Photo Placeholder</p>
+                </div>
+                <div class="profile-details">
+                    <p><span class="profile-data">誕生日:</span> 1982年6月2日</p>
+                    <p><span class="profile-data">出身:</span> 山梨県</p>
+                    <p><span class="profile-data">所属:</span> 株式会社オフィスのいり</p>
+                    <p><span class="profile-data">特技:</span> 筆文字、イラスト、一輪車、水泳、ピアノ、ドラム、リコーダー</p>
+                    <br>
+                    <p>
+                        法政大学文学部日本文学科卒。早稲田大学演劇研究会にて劇団「北京蝶々」の旗揚げメンバーとして参加後、フリーに。<br>
+                        躍動感ある演技に定評があり、「怪女優」と呼ぶ人も多い。佐藤佐吉演劇祭にて優秀主演女優賞を受賞。
+                    </p>
+                    <p>
+                        2023年6月に「やまなし大使」に就任。精力的に舞台やメディア、演技指導で活躍中。
+                    </p>
+                </div>
+            </div>
         </section>
 
-        <section id="works">
-            <h2>出演歴</h2>
-            <p>これまでの豊富な出演歴は、以下のページにまとめています。</p>
-            <p><a href="works.html" style="display:inline-block; padding:10px 20px; background:#5b2c34; color:#fff; border-radius:4px; text-decoration:none;">すべての出演歴を見る</a></p>
+        <section id="works" class="section" style="text-align: center;">
+            <h2 class="section-title">WORKS</h2>
+            <p>劇団「北京蝶々」や「動物電気」をはじめとする<br>これまでのすべての出演歴はこちらにまとめています。</p>
+            <a href="works.html" class="btn">すべての出演歴を見る</a>
         </section>
 
-        <section id="contact">
-            <h2>リンク・お問い合わせ</h2>
-            <ul>
+        <section id="contact" class="section" style="text-align: center;">
+            <h2 class="section-title">LINKS & CONTACT</h2>
+            <ul class="works-list" style="display:inline-block; text-align:left;">
                 <li><a href="https://www.obikaneyukari.com" target="_blank">現在の公式サイト</a></li>
                 <li><a href="https://ameblo.jp/yukariobikane/" target="_blank">帯金ゆかりが軽はずみの日々！ (Blog)</a></li>
                 <li><a href="https://x.com/obiyuka" target="_blank">帯金ゆかり (@obiyuka) - X</a></li>
@@ -63,7 +87,7 @@
         </section>
     </main>
 
-    <footer>
+    <footer class="site-footer">
         <p>&copy; 2026 Yukari Obikane. All rights reserved.</p>
     </footer>
 </body>
